@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="index-styles.css" />
+    <link rel="stylesheet" href="contact-style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <script type="text/javascript" src="./script.js"></script>
   </head>
 
   <body>
@@ -30,50 +31,18 @@
       </nav>
     </header>
 
-    <!--Main page, first part-->
-    <div class="first-part">
-      <div class="first-part-left">
-        <div class="first-part-left-inner">
-          <p class="first-part-header header">Hej! Z tej strony RealizacJA!</p>
-          <p class="first-part-text text">
-            Doskonale rozumiemy, jak trudno odnaleźć się w dzisiejszym świecie,
-            pełnym wyzwań i niepewności. Wiele młodych osób doświadcza poczucia
-            zagubienia, nie wiedząc, jak najlepiej rozwijać swoje pasje i
-            realizować marzenia. Jednak nie musisz się martwić &#150; trafiłeś w
-            odpowiednie miejsce!
-          </p>
-          <a href="about.html" class="first-part-link-button">
-            Dowiedz się więcej
-          </a>
-        </div>
-      </div>
-      <div class="first-part-right">
-        <img src="img/logo.png" alt="logo" class="first-part-image" />
-      </div>
-    </div>
-
-    <!--Main page, second part-->
-    <div class="second-part">
-      <div class="second-part-upper">
-        <p class="second-part-upper-header header">
-          Co robimy jako RealizacJA?
-        </p>
-        <p class="second-part-upper-text text">
-          Odkryj działania projektu
-        </p>
-      </div>
-      (WIP)
-      <div class="second-part-lower">
-        <!--Unfinished!!-->
-        <div class="second-part-lower-grid-element">
-          <img src="img/warsztaty_icon.png" alt="ikona: warsztaty">
-        </div>
-        <div class="second-part-lower-grid-element">
-          <img src="img/blog_icon.png" alt="ikona: blog">
-        </div>
-        <div class="second-part-lower-grid-element">
-          <img src="img/social_media_icon.png" alt="ikona: social media">
-        </div>
+    <div class="contact_container">
+      <form action="" class="contact_left">
+        <h3>Imię i nazwisko</h3>
+        <input type="text" name="name" placeholder="Jan Kowalski" class="contact_inputs name" required>
+        <h3>Adres E-mail</h3>
+        <input type="email" name="email" placeholder="abc123@xyz.com" class="contact_inputs email" required>
+        <h3>Treść wiadomości</h3>
+        <textarea name="message" placeholder="Mam pytanie dotyczące lampki..." class="contact_inputs message" required></textarea>
+        <button type="submit" class="submit">Wyślij wiadomość</button>
+      </form>
+      <div class="contact_right">
+        <h1>Masz pytania?<br>Jesteśmy tutaj aby pomóc!</h1>
       </div>
     </div>
 
