@@ -24,6 +24,18 @@ html, body {
     margin-top: 15px;
 }
 
+.name_tag.error {
+    color: red;
+}
+
+.email_tag.error {
+    color: red;
+}
+
+.message_tag.error {
+    color: red;
+}
+
 .contact_inputs {
     width: 400px;
     height: 50px;
@@ -33,6 +45,10 @@ html, body {
     font-weight: 500;
     color: #666;
     border-radius: 50px;
+}
+
+.contact_inputs.error {
+    border: 2px solid red;
 }
 
 .contact_left textarea{
@@ -70,6 +86,11 @@ html, body {
 .contact_left .submit.active {
     color: white;
     background: #171717;
+}
+
+.contact_left .submit.inactive {
+    color: #171717;
+    background: #1717171a;
 }
 
 .contact_right h1{
