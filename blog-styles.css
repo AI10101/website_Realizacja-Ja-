@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 4vw;
+    background: -webkit-linear-gradient(45deg, #0B1C42, #5EA9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.top {
+    height: 100%;
+    background-image: url('./img/placeholder1.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.top h1 {
+    letter-spacing: 5px;
+    margin: 8% 10%;
+    display: inline-block;
+    color: #171717;
+    font-weight: 600;
+    font-size: 2vw;
+    background-color: #EFEFEF66;
+    padding: 0.5vw 5vw;
+    border-radius: 2vw;
+}
+
+.top h2 {
+    letter-spacing: 5px;
+    margin: 0 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    color: #171717;
+    font-weight: 600;
+    font-size: 1.4vw;
+    background-color: #EFEFEF66;
+    padding: 0.5vw 5vw;
+    border-radius: 2vw;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    max-width: 70vw;
+}
+
+.placeholder {
+    margin: 1vw auto;
+    background-color: #D9D9D9;
+    width: 65vw;
+    height: 65vw;
+}
+
+.left p {
+    max-width: 65vw;
+    margin: 1vw auto;
+    margin-bottom: 5vw;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.right {
+    width: 30vw;
+}
+
+.right h3 {
+    background-image: url(./img/frame.png);
+    background-repeat: no-repeat;
+    background-size: 30vw;
+    font-size: 1vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    text-align: center;
+}
+
+.popular h4 {
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.popular img {
+    width: 100%;
+    border-radius: 0.5vw;
+    margin-bottom: 1vw;
+}
+
+.right {
+    list-style: none;
+}
+
+.right ul {
+    width: 100%;
+    margin: auto;
+}
+
+.right li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+.right a {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 6vw;
+    display: block;
+    margin: auto;
+}
