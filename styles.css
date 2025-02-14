@@ -11,7 +11,7 @@ NAVMENU
 */
 
 header {
-    padding: 10px;
+    padding: 20px;
     /* settings for positioning inside elements */
     display: flex;
     overflow: hidden;
@@ -41,6 +41,17 @@ li, a {
     /* positions list elements verticaly */
     display: inline-block;
     padding: 0 20px;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5vw;
+}
+
+.main img {
+    width: 72px;
 }
 
 .nav_links li a {

@@ -119,3 +119,53 @@
     display: block;
     margin: auto;
 }
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 8vw;
+    }
+
+    .top h1 {
+        letter-spacing: 3px;
+        margin: 8% 10%;
+        display: inline-block;
+        color: #171717;
+        font-weight: 600;
+        font-size: 3vw;
+        background-color: #EFEFEF66;
+        padding: 0.5vw 5vw;
+        border-radius: 2vw;
+    }
+    
+    .top h2 {
+        letter-spacing: 3px;
+        margin: 0 10%;
+        margin-bottom: 10%;
+        display: inline-block;
+        color: #171717;
+        font-weight: 600;
+        font-size: 2.5vw;
+        background-color: #EFEFEF66;
+        padding: 0.5vw 5vw;
+        border-radius: 2vw;
+    }    
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        max-width: 90vw;
+    }
+    
+    .placeholder {
+        margin: 3vw auto;
+        width: 85vw;
+        height: 85vw;
+    }
+    
+    .left p {
+        max-width: 85vw;
+        font-size: 2.5vw;
+    }
+}
