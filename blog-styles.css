@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.sk-ww-linkedin-page-post {
+    margin: 2vw;
+    margin-top: 0;
+    padding-top: 0;
+}
+
 .title {
     text-align: center;
     width: 100%;
