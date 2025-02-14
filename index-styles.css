@@ -100,6 +100,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .first-part-left {
@@ -124,6 +125,7 @@
   }
 }
 
+/* First part image */
 @media (max-width: 800px) {
   .first-part-image-phone {
     width: 250px;
@@ -178,7 +180,6 @@
   .second-part {
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 50px;
     margin-bottom: 100px;
   }
 
