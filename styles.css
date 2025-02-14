@@ -51,7 +51,7 @@ li, a {
 }
 
 .main img {
-    width: 72px;
+    width: 73px;
 }
 
 .nav_links li a {
@@ -162,6 +162,14 @@ footer * {
         margin-bottom: 5%;
         text-align: center;
         font-size: 16px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .main img {
+        width: 51px;
     }
 
     .nav_links li {
