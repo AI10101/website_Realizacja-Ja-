@@ -111,4 +111,12 @@ html, body {
     .contact_right{
         display: none;
     }
+
+    .contact_left {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    .name_tag {
+        margin-top: 0;
+    }
 }
