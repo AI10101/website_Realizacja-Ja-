@@ -9,6 +9,10 @@
     padding-top: 0;
 }
 
+.content {
+    margin: 1vw
+}
+
 .title {
     text-align: center;
     width: 100%;
