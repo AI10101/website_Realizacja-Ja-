@@ -551,6 +551,11 @@
     width: 90%;
     column-gap: 15px;
   }
+
+  .sixth-part-lower-column {
+    /* Hard-coded, if changing the content, make sure the width matches! */ 
+    width: 200px;
+  }  
   
   .sixth-part-lower-element {
     margin-bottom: 25px;
