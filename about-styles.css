@@ -262,4 +262,8 @@
   .fourth-part-header {
     margin-bottom: 30px;
   }
+
+  .fourth-part-image {
+    width: 60vw;
+  }
 }
